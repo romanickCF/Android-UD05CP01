@@ -47,12 +47,12 @@ class MainActivity : AppCompatActivity() {
                 this,
                 {_,selectedYear, selectedMonth, selectedDay ->
                     val fechaFormateada = String.format(Locale.getDefault(),"%02d/%02d/%04d",selectedDay,selectedMonth +1, selectedYear)
-                   tvFecha.text = "Naciste el $fechaFormateada"
-                    var calculo = calculaDias(month,selectedMonth,day,selectedDay,year,selectedYear)
+                   tvFecha.text ="Naciste el $fechaFormateada"
+                    val calculo = calculaDias(month,selectedMonth,day,selectedDay,year,selectedYear)
 
-                    var años = calculo[0]
-                    var dias = calculo[1]
-                    tvMensaje.text = "Tienes $años años y $dias dias"
+                    val anhos = calculo[0]
+                    val dias = calculo[1]
+                    tvMensaje.text = "Tienes $anhos años y $dias dias"
 
                 },
                 year, month,day
