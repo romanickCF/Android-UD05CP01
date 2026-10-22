@@ -57,17 +57,16 @@
 
     <TextView
         android:id="@+id/tvCreditos"
-        android:textAlignment="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/creditos"
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvMensaje"
-        app:layout_constraintVertical_bias="0.923"
-        />
+        app:layout_constraintVertical_bias="0.854" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -91,10 +90,9 @@
         android:layout_marginTop="12dp"
         app:layout_constraintBottom_toTopOf="@+id/tvHoy"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.471"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
-        app:layout_constraintVertical_bias="0.453"
+        app:layout_constraintVertical_bias="0.373"
         app:srcCompat="@drawable/calendar" />
 
 
