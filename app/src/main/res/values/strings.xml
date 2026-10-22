@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Android-UD05CP01</string>
+    <string name="msjCalcula">Calcula el número de dias desde tu fecha de nacimiento</string>
+    <string name="fecha_nacimiento">FECHA DE NACIMIENTO</string>
+    <string name="hoy_es">Hoy es %s</string>
+    <string name="naciste">Naciste…</string>
+    <string name="creditos">Creado por Romanick Raga.\n
+                                2026</string>
+</resources>
