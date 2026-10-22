@@ -9,25 +9,25 @@
 
     <TextView
         android:id="@+id/tvHoy"
+        style="@style/texto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="144dp"
+        android:layout_marginTop="256dp"
         android:text="@string/hoy_es"
-        style="@style/texto"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/tvFecha"
+        style="@style/texto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        style="@style/texto"
+        android:layout_marginTop="56dp"
         android:text="@string/naciste"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvHoy" />
 
@@ -47,7 +47,7 @@
         style="@style/texto"
         android:layout_width="266dp"
         android:layout_height="95dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="40dp"
         android:text="@string/msjCalcula"
 
         app:layout_constraintEnd_toEndOf="parent"
@@ -83,6 +83,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:title="EjercicioFecha"
                                      />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="99dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/tvHoy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.453"
+        app:srcCompat="@drawable/calendar" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
